@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "id": 0,
+      "nome": "Stormtrooper",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQhira7mOrfyx0bERb4KgZVPM8Daztet1dJDmH_3Kav9HyqBwdjvI1Ssx&s=10",
+      "preco": "60.00"
+    },
+    {
+      "id": 1,
+      "nome": "Game Boy Classic",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39vBBnozW1XxLdZumFEt6YNjTGKGVJKOcf3dxOXFGI6rRceFbQhONa5E&s=10",
+      "preco": "40.00"
+    },
+    {
+      "id": 2,
+      "nome": "Stormtrooper",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQhira7mOrfyx0bERb4KgZVPM8Daztet1dJDmH_3Kav9HyqBwdjvI1Ssx&s=10",
+      "preco": "60.00"
+    },
+    {
+      "id": 3,
+      "nome": "Game Boy Classic",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39vBBnozW1XxLdZumFEt6YNjTGKGVJKOcf3dxOXFGI6rRceFbQhONa5E&s=10",
+      "preco": "40.00"
+    },
+    {
+      "id": 4,
+      "nome": "Stormtrooper",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQhira7mOrfyx0bERb4KgZVPM8Daztet1dJDmH_3Kav9HyqBwdjvI1Ssx&s=10",
+      "preco": "60.00"
+    },
+    {
+      "id": 5,
+      "nome": "Game Boy Classic",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39vBBnozW1XxLdZumFEt6YNjTGKGVJKOcf3dxOXFGI6rRceFbQhONa5E&s=10",
+      "preco": "40.00"
+    },
+    {
+      "id": 6,
+      "nome": "Stormtrooper",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQhira7mOrfyx0bERb4KgZVPM8Daztet1dJDmH_3Kav9HyqBwdjvI1Ssx&s=10",
+      "preco": "60.00"
+    },
+    {
+      "id": 7,
+      "nome": "Game Boy Classic",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39vBBnozW1XxLdZumFEt6YNjTGKGVJKOcf3dxOXFGI6rRceFbQhONa5E&s=10",
+      "preco": "40.00"
+    },
+    {
+      "id": 8,
+      "nome": "Stormtrooper",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQhira7mOrfyx0bERb4KgZVPM8Daztet1dJDmH_3Kav9HyqBwdjvI1Ssx&s=10",
+      "preco": "60.00"
+    },
+    {
+      "id": 9,
+      "nome": "Game Boy Classic",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39vBBnozW1XxLdZumFEt6YNjTGKGVJKOcf3dxOXFGI6rRceFbQhONa5E&s=10",
+      "preco": "40.00"
+    },
+    {
+      "nome": "PlayStation 2",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAIMWM_cwDob5XJeZlAVxqM_ykJM5RY2X9jQx1-vq2SvzLwwBnA8QwDl4&s=10",
+      "preco": "200",
+      "id": 10
+    },
+    {
+      "nome": "Nintendo Switch",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulWhO3OTWYDY9sDZYwgJOX7GhVB0c9RoDMM9uoODVcC7PazZ6-FXuPRls&s=10",
+      "preco": "2000",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+:root {
+  --dark-blue: #03318C;
+  --light-blue: #5D04D9;
+  --white: #FFF;
+  --black: #000;
+  --shadow: rgba(0, 0, 0, .25);
+  
+  --font-ibm-mono: "IBM Plex Mono", monospace;
+  --font-press-start-2p: "Press Start 2P", system-ui;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  position: relative;
+  height: 100%;
+}
+
+.header {
+  background-color: var(--light-blue);
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  color: var(--white);
+  font-family: var(--font-press-start-2p);
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.logo-img {
+  width: 138px;
+  height: 56px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 100%;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 758px;
+  margin-bottom: 30px;
+}
+
+.produtos h2 {
+  font-family: var(--font-press-start-2p);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.lista-produtos {
+  display: flex;
+  overflow: scroll;
+  margin-top: 30px;
+  gap: 14px;
+  border: 1px solid darkviolet;
+}
+
+.produto-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--light-blue);
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  width: 196px;
+  height: 258px;
+  color: var(--white);
+  -webkit-box-shadow: -5px 6px 3.3px 0 var(--shadow);
+  -moz-box-shadow: -5px 6px 3.3px 0 var(--shadow);
+  box-shadow: -5px 6px 3.3px 0 var(--shadow);
+}
+
+.produto-imagem {
+  width: 176px;
+}
+
+.produto-imagem img {
+  width: 100%;
+  height: 174px;
+}
+
+.produto-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.produto-nome {
+  font-family: var(--font-ibm-mono);
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.produto-preco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.produto-preco p {
+  font-family: var(--font-ibm-mono);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.produto-preco .botao-excluir {
+  background: transparent;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: var(--light-blue);
+  color: var(--white);
+  font-family: var(--font-press-start-2p);  
+  position: absolute;
+}
+
+.footer p {
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit-developer, .footer span {
+  font-family: var(--font-ibm-mono);
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.credit-developer a {
+  color: var(--white);
+  margin-left: 10px;
+}
+
+.footer span {
+  margin-top: 12px;
+}
+
+.form {
+  max-width: 472px;
+}
+
+.form h3 {
+  font-family: var(--font-press-start-2p);
+  margin: 16px 0;
+}
+
+.input-field {
+  margin-bottom: 14px;
+}
+
+.input-field label {
+  font-family: var(--font-ibm-mono);
+  color: var(--dark-blue);
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field input {
+  border-radius: 30px;
+  border: 2px solid var(--dark-blue);
+  width: 100%;
+  max-width: 392px;
+  height: 40px;
+}
+
+.mensagem-erro {
+  color: red;
+  font-size: 14px;
+}
+
+.button-container input{
+  border-radius: 15px;
+  padding: 14px 40px;
+  border: none;
+  font-family: var(--font-ibm-mono);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-container input[type='submit']{
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: 2px solid var(--dark-blue);
+}
+
+.button-container input[type='submit']:hover {
+  background-color: var(--white);
+  
+  color: var(--dark-blue);
+}
+
+.button-container input[type='reset'] {
+  background-color: var(--white);
+  border: 2px solid var(--dark-blue);
+  color: var(--dark-blue);
+}
+
+.button-container input[type='reset']:hover {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}

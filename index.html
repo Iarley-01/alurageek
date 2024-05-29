@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alura Geek</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/responsive.css">
+  </head>
+  <body>
+    
+    <div class="app">
+      
+      <header class="header">
+        <div class="logo">
+          <h1><img class="logo-img" src="./src/img/image 1.svg" alt=""> AluraGeek</h1>
+        </div>
+      </header>
+      
+      <main class="main-container">
+        
+        <section class="produtos">
+          <h2>Meus Produtos:</h2>
+          
+          <div class="lista-produtos" id="lista-de-produtos">
+            <!--<div class="produto-card">
+              <div class="produto-imagem">
+                <img src="./src/img/stormtrooper.svg" alt="">
+              </div>
+              <div class="produto-info">
+                <h3 class="produto-nome">Stormtrooper</h3>
+                <div class="produto-preco">
+                  <p>$ 60.00</p>
+                  <button><img src="./src/img/trash-icon.svg" alt=""></button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="produto-card">
+              <div class="produto-imagem">
+                <img src="./src/img/stormtrooper.svg" alt="">
+              </div>
+              <div class="produto-info">
+                <h3 class="produto-nome">Stormtrooper</h3>
+                <div class="produto-preco">
+                  <p>$ 60.00</p>
+                  <button><img src="./src/img/trash-icon.svg" alt=""></button>
+                </div>
+              
+                
+              </div>
+            </div>
+            <div class="produto-card">
+              <div class="produto-imagem">
+                <img src="./src/img/stormtrooper.svg" alt="">
+              </div>
+              <div class="produto-info">
+                <h3 class="produto-nome">Stormtrooper</h3>
+                <div class="produto-preco">
+                  <p>$ 60.00</p>
+                  <button><img src="./src/img/trash-icon.svg" alt=""></button>
+                </div>
+              
+                
+              </div>
+            </div>
+            <div class="produto-card">
+              <div class="produto-imagem">
+                <img src="./src/img/stormtrooper.svg" alt="">
+              </div>
+              <div class="produto-info">
+                <h3 class="produto-nome">Stormtrooper</h3>
+                <div class="produto-preco">
+                  <p>$ 60.00</p>
+                  <button><img src="./src/img/trash-icon.svg" alt=""></button>
+                </div>
+              
+                
+              </div>
+            </div> -->
+          </div>
+          
+        </section>
+        
+        <form class="form" id="formulario">
+          <h3>Adicionar Produto:</h3>
+          
+          <div class="input-field">
+            <label for="nome">Nome</label>
+            <input name="nome" type="text" class="input-field" id="nome-produto" placeholder="Nome" maxlength="50" minlength="3" required data-nome>
+            <span class="mensagem-erro"></span>
+          </div>
+          <div class="input-field">
+            <label for="valor">Valor</label>
+            <input name="valor" type="text" class="input-field" id="preco-produto" placeholder="Ex: 70.00" required data-valor>
+            <span class="mensagem-erro"></span>
+          </div>
+          <div class="input-field">
+            <label for="imagem">Imagem</label>
+            <input name="imagem" type="text" class="input-field" id="imagem-produto" placeholder="Insira a url da imagem" required data-imagem>
+            <span class="mensagem-erro"></span>
+          </div>
+          
+          <div class="button-container">
+            <input type="submit">
+            <input type="reset">
+          </div>
+        </form>
+        
+      </main>
+      
+      <footer class="footer">
+        <p><img class="logo-img" src="./src/img/image 1.svg" alt=""> AluraGeek</p>
+        <p class="credit-developer">Desenvolvido por <a href="#">Iarley Alves</a></p>
+        <span>Alura Latam 2024</span>
+      </footer>
+    </div>
+    
+    
+    <script src="./src/scripts/mostrar-produtos.js" defer type="module"></script>
+    <script src="./src/scripts/criaCardProduto.js" defer type="module"></script>
+    <script src="./src/scripts/formulario.js" defer></script>
+  </body>
+</html>
